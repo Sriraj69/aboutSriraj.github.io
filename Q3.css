@@ -1,0 +1,75 @@
+body{
+    background-image: url("Q3_1.png");
+}
+
+.content{
+    width:100%;
+    position:absolute;
+    top:40%;
+    transform: translateY(-50%);
+    text-align:center;
+    color:#fff;
+    margin: 200px auto;
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+    font-style: oblique;
+    font-family: cursive;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight:100;
+    line-height: 25px;
+    font-size:20px;
+    font-family: cursive;
+}
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align:center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight:bold;
+    border : 2px solid #5BB5B8;
+    background: transparent;
+    color:white;
+    cursor:pointer;
+    position:relative;
+    overflow:hidden;
+}
+
+span{
+    background:#5BB5B8;
+    height:100%;
+    width :0;
+    border-radius : 25px;
+    position:absolute;
+    left:0;
+    bottom:0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width : 100%;
+}
+
+button:hover{
+    border:  2px solid #5BB5B8;
+}
+
+a{
+    text-decoration: none;
+    color : white;
+    text-transform:uppercase;
+}
+
+img{
+    border-radius: 50%;
+    margin : 20px auto;
+    transform: translateY(5%);
+}
